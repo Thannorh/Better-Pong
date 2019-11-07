@@ -23,9 +23,9 @@ public class MovementTop : MonoBehaviour
 
     void CheckUserInput()
     {
-        if(Input.GetKey (KeyCode.D))
+        if (Input.GetKey(KeyCode.D))
         {
-            if(transform.position.x > MaxRight)
+            if (transform.position.x > MaxRight)
             {
                 transform.position = new Vector3(MaxRight, transform.position.y, transform.position.y);
             }
