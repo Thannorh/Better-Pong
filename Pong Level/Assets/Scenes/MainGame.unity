@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 178070155}
   - component: {fileID: 178070154}
   m_Layer: 5
-  m_Name: Score Bottom Player
+  m_Name: ScoreBottomPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9951428, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello
+  m_Text: 0
 --- !u!222 &178070155
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -777,6 +777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTopScore: 0
   PlayerBottomScore: 0
+  TopScoreText: {fileID: 1480926533}
+  BottomScoreText: {fileID: 178070154}
   NextScene: EndGamePlayerTopWon
   OtherNextScene: EndGamePlayerBottomWon
 --- !u!1 &1393464656
@@ -936,7 +938,7 @@ GameObject:
   - component: {fileID: 1480926534}
   - component: {fileID: 1480926533}
   m_Layer: 5
-  m_Name: Score Top Player
+  m_Name: ScoreTopPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9473977, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -994,7 +996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello
+  m_Text: 0
 --- !u!222 &1480926534
 CanvasRenderer:
   m_ObjectHideFlags: 0

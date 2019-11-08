@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Scores : MonoBehaviour
 {
     public int PlayerTopScore = 0;
     public int PlayerBottomScore = 0;
+    public Text TopScoreText;
+    public Text BottomScoreText;
+    
 
     public string NextScene;
     public string OtherNextScene;
@@ -33,6 +37,9 @@ public class Scores : MonoBehaviour
         {
             PlayerBottomScore++;
         }
+
+        TopScoreText.text = PlayerTopScore.ToString();
+        BottomScoreText.text = PlayerBottomScore.ToString();
 
         if (PlayerTopScore == 7)
         {
