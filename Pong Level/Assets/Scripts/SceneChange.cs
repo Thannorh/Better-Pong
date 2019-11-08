@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public string NextScEnE;
+    public string NextScene;
+    public string OtherNextScene;
     public void OnClick(string StartButton)
     {
-        SceneManager.LoadScene(NextScEnE, LoadSceneMode.Single);
+        SceneManager.LoadScene(NextScene, LoadSceneMode.Single);
     }
 }

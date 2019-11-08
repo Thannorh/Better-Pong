@@ -27,7 +27,10 @@ public class ballstart : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(XSpeed, YSpeed));
             ballactive++;
-
         }
+    }
+    private void ResetPosition()
+    {
+        if()
     }
 }
