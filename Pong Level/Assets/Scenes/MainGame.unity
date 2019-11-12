@@ -779,8 +779,8 @@ MonoBehaviour:
   PlayerBottomScore: 0
   TopScoreText: {fileID: 1480926533}
   BottomScoreText: {fileID: 178070154}
-  NextScene: EndGamePlayerTopWon
-  OtherNextScene: EndGamePlayerBottomWon
+  NextScene: EndGamePlayerDownWon
+  OtherNextScene: EndGamePlayerTopWon
 --- !u!1 &1393464656
 GameObject:
   m_ObjectHideFlags: 0
