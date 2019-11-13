@@ -1,0 +1,1 @@
+when the ball hits the paddle there will be a sound like a ping pong ball hitting a racket
