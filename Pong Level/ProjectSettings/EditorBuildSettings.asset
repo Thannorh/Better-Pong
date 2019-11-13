@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndGamePlayerDownWon.unity
     guid: 187e72b53af9ef94991aa63b3a9e4ee2
+  - enabled: 1
+    path: Assets/Scenes/BasePong.unity
+    guid: e0562ed820d31ee4f914cbb241994b98
+  - enabled: 1
+    path: Assets/Scenes/StartButton.unity
+    guid: 63c7e3aed9c792b46b095c68052eb015
   m_configObjects: {}
