@@ -7,7 +7,7 @@ public class ballstart : MonoBehaviour
     public int ballactive = 0;
     public float XSpeed = 0.0f;
     public float YSpeed = 0.0f;
-    public Vector2 StartingPosition = new Vector3(0f, -4.1f);
+    public Vector2 StartingPosition = new Vector2(0f, -4.1f);
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +27,14 @@ public class ballstart : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(XSpeed, YSpeed));
             ballactive++;
+        }
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Player Goal Top" || collision.gameObject.name == "Player Goal Bottom")
+        {
+            StartingPosition = new Vector2(0f, 0f);
+            transform.position = (Vector2)(StartingPosition);
         }
     }
 }

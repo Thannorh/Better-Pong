@@ -256,7 +256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restart
+  m_Text: Main Menu
 --- !u!222 &983017326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -672,5 +672,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4bcd1594d69b094180097ae61a54315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: MainGame
+  NextScene: StartButton
   OtherNextScene: 
