@@ -35,6 +35,7 @@ public class ballstart : MonoBehaviour
         {
             StartingPosition = new Vector2(0f, 0f);
             transform.position = (Vector2)(StartingPosition);
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(XSpeed, YSpeed));
         }
     }
 }
