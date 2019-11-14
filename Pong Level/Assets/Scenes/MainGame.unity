@@ -220,7 +220,17 @@ PrefabInstance:
     - target: {fileID: 4811160055793684278, guid: a04643af207094e4cbe5aca20d25f4be,
         type: 3}
       propertyPath: lengthInSec
-      value: 2
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811160055793684278, guid: a04643af207094e4cbe5aca20d25f4be,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811160055793684278, guid: a04643af207094e4cbe5aca20d25f4be,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a04643af207094e4cbe5aca20d25f4be, type: 3}
