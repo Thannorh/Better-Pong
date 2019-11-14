@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballactive: 0
-  XSpeed: 150
-  YSpeed: 150
+  XSpeed: 175
+  YSpeed: 175
   StartingPosition: {x: 0, y: 0}
 --- !u!114 &-2019647654531811607
 MonoBehaviour:
@@ -136,8 +136,8 @@ MonoBehaviour:
   PlayerBottomScore: 0
   TopScoreText: {fileID: 0}
   BottomScoreText: {fileID: 0}
-  NextScene: EndGameTopPlayerWins
-  OtherNextScene: EndGameDownPlayerWins
+  NextScene: EndGamePlayerTopWon
+  OtherNextScene: EndGamePlayerDownWon
 --- !u!58 &-3652743716974658198
 CircleCollider2D:
   m_ObjectHideFlags: 0
