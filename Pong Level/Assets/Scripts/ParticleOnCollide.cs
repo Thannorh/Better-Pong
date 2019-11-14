@@ -4,28 +4,22 @@ using UnityEngine;
 
 public class ParticleOnCollide : MonoBehaviour
 {
-
+    public ParticleSystem _psystem;
     // Start is called before the first frame update
     void Start()
     {
     }
-    public class ParticleStarter : MonoBehaviour
+    void Awake()
     {
+        _psystem = GetComponentInChildren<ParticleSystem>();
+    }
 
-        private ParticleSystem _psystem;
-
-        void Awake()
-        {
-            _psystem = GetComponent<ParticleSystem>();
-        }
-
-        void OnTriggerEnter(Collider col)
-        {
-
-
-            _psystem.Play();
-
-        }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        _psystem.Play();
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        _psystem.Play();
     }
 }
-  
