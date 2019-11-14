@@ -370,6 +370,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 4671237407517451876, guid: f9cb0fe87ae2aa04ba200a04dc6c189a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9cb0fe87ae2aa04ba200a04dc6c189a, type: 3}
 --- !u!1 &519420028
@@ -496,7 +501,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 607085265}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2016268b21a656340a67fb0d63eb1bb5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1408,6 +1413,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 4671237407517451876, guid: f9cb0fe87ae2aa04ba200a04dc6c189a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9cb0fe87ae2aa04ba200a04dc6c189a, type: 3}
 --- !u!1001 &4775967042651937094
@@ -1426,12 +1436,12 @@ PrefabInstance:
         type: 3}
       propertyPath: TopScoreText
       value: 
-      objectReference: {fileID: 1480926533}
+      objectReference: {fileID: 178070154}
     - target: {fileID: -2019647654531811607, guid: 9ba7b804799143d458dbca69b304f340,
         type: 3}
       propertyPath: BottomScoreText
       value: 
-      objectReference: {fileID: 178070154}
+      objectReference: {fileID: 1480926533}
     - target: {fileID: -4166816344239107987, guid: 9ba7b804799143d458dbca69b304f340,
         type: 3}
       propertyPath: StartingPosition.y
@@ -1500,6 +1510,21 @@ PrefabInstance:
     - target: {fileID: 8982361311347511050, guid: 9ba7b804799143d458dbca69b304f340,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523715253125353830, guid: 9ba7b804799143d458dbca69b304f340,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523715253125353830, guid: 9ba7b804799143d458dbca69b304f340,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523715253125353830, guid: 9ba7b804799143d458dbca69b304f340,
+        type: 3}
+      propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
