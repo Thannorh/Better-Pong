@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7803822215335330585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6857388, y: 0.63809234, z: -13.608759}
+  m_LocalPosition: {x: 1.6857388, y: 0.63809234, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -136,8 +136,8 @@ MonoBehaviour:
   PlayerBottomScore: 0
   TopScoreText: {fileID: 0}
   BottomScoreText: {fileID: 0}
-  NextScene: EndGamePlayerTopWon
-  OtherNextScene: EndGamePlayerDownWon
+  NextScene: EndGamePlayerDownWon
+  OtherNextScene: EndGamePlayerTopWon
 --- !u!58 &-3652743716974658198
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ public class MovementTop : MonoBehaviour
         {
             if (transform.position.x > MaxRight)
             {
-                transform.position = new Vector3(MaxRight, transform.position.y, transform.position.y);
+                transform.position = new Vector3(MaxRight, transform.position.y, 0);
             }
             else
             {
@@ -38,7 +38,7 @@ public class MovementTop : MonoBehaviour
         {
             if (transform.position.x < MaxLeft)
             {
-                transform.position = new Vector3(MaxLeft, transform.position.y, transform.position.y);
+                transform.position = new Vector3(MaxLeft, transform.position.y, 0);
             }
             else
             {
