@@ -117,8 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballactive: 0
-  XSpeed: 175
-  YSpeed: 175
+  Speed: 180
   StartingPosition: {x: 0, y: 0}
 --- !u!114 &-2019647654531811607
 MonoBehaviour:
